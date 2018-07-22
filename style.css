@@ -2,6 +2,7 @@ html, body, h1, h2, h3, ol, ul, il, a {
 	padding: 0;
 	border: 0;
 	margin: 0;
+	background-color: slategray;
 }
 
 body {
@@ -69,6 +70,8 @@ body {
 }
 .header a {
     color: #ffffff;
+	text-decoration: none;
+	
 }
 h1 {
     color: #ffffff;
@@ -80,4 +83,16 @@ h1 {
     padding: 20px;
     border: 1px solid #dddddd;
     margin: 30px auto 0 auto;
+}
+.photos {
+	list-style-type: none;
+	padding: 0;
+}
+.photos li {
+	display: inline;
+	padding-left: 11px;
+}
+.photos img {
+	max-width: 150px;
+	max-height: 150px;
 }
