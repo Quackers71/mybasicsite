@@ -2,7 +2,8 @@ html, body, h1, h2, h3, ol, ul, il, a {
 	padding: 0;
 	border: 0;
 	margin: 0;
-	background-color: slategray;
+	color: antiquewhite;
+	background: #5f5f5f url(images/background-img.png) top left repeat;
 }
 
 body {
@@ -71,7 +72,6 @@ body {
 .header a {
     color: #ffffff;
 	text-decoration: none;
-	
 }
 h1 {
     color: #ffffff;
@@ -84,6 +84,34 @@ h1 {
     border: 1px solid #dddddd;
     margin: 30px auto 0 auto;
 }
+.featured-image {
+	width: 515px auto;
+	height: 260px;
+	padding-bottom: 50px;
+	padding: 20px auto 20px auto;
+	background: #ffffff url(images/lime-cake.png) center no-repeat;
+}
+.featured-image h3 {
+	margin: 0;
+	background-color: #333333;
+	color: #ffffff;
+	padding: 5px 0 5px 15px;
+	text-transform: uppercase;
+}
+.featured-image2 {
+	width: 600px auto;
+	height: 494px;
+	padding: 20px auto 20px auto;
+	background: #ffffff url(images/power-of.png) center no-repeat;
+}
+.featured-image2 h3 {
+	margin: 0;
+	background-color: #333333;
+	color: #ffffff;
+	padding: 5px 0 5px 15px;
+	text-transform: uppercase;
+}
+
 .photos {
 	list-style-type: none;
 	padding: 0;
