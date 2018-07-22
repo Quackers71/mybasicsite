@@ -96,3 +96,12 @@ h1 {
 	max-width: 150px;
 	max-height: 150px;
 }
+.main-content-error {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    margin: 30px auto 0 auto;
+}
+.main-content-error h2 {
+	color: firebrick;	
+}
