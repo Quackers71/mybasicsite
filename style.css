@@ -3,22 +3,28 @@ html, body, h1, h2, h3, ol, ul, il, a {
 	border: 0;
 	margin: 0;
 	color: antiquewhite;
-	
+	font-size: 100%;
+	font: inherit;
 }
 
 body {
 	padding: 20px 20px 20px 20px;
 	background: #5f5f5f url(images/background-img.png) top left repeat;
+	font-family: Helvetica, Arial, "Times New Roman", sans-serif;
 }
 
 h1 {
 	margin: 10px 0 15px 0;
+	font-size: 30px;
+	font-weight: bold;
 }
 
 h2 {
 	margin: 10px 0 20px 0;
 	color: #7facaa;
     text-align: center;
+	font-size: 25px;
+	font-weight: bold;
 }
 
 h3 {
@@ -26,6 +32,8 @@ h3 {
 	border-bottom: 3px solid #CCCCCC;
 	padding-bottom: 3px;
 	color: #7facaa;
+	font-size: 18px;
+
 }
 
 ul {
@@ -50,7 +58,8 @@ ol {
 }
 .recipes {
 	list-style-type: none;
-	padding: 0;
+	padding: 5px 200px 5px 200px;
+	
 }
 .recipes li {
 	border: 1px solid #b56663;
@@ -62,6 +71,12 @@ ol {
 .recipes a {
 	color: #7facaa;
 	text-decoration: none;
+}
+.recipes img {
+	max-width: 150px;
+	max-height: 150px;
+	float: left;
+	padding: 1px 15px 1px 0;
 }
 body {
     padding: 0 0 0 0;
@@ -84,6 +99,9 @@ h1 {
     padding: 20px;
     border: 1px solid #dddddd;
     margin: 30px auto 0 auto;
+}
+.main-content p {
+	line-height: 26px;
 }
 .featured-image {
 	width: 515px auto;
